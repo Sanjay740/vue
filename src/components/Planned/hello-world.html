@@ -1,0 +1,22 @@
+<div class="uk-card uk-card-default">
+  <div class="uk-card uk-card-default uk-card-large uk-card-body">
+    <div>
+
+      <h1>Planned Expenses</h1>
+
+      <form @submit.prevent="handleSubmit">
+        <div class="form-group">
+          <label for="categoryName">Category Name</label>
+          <input type="text" v-model="category.categoryName" name="categoryName" class="form-control" />         
+
+          <label htmlFor="price">Price</label>
+          <input type="password" v-model="category.price" name="price" class="form-control" />
+
+          <button class="btn btn-primary">Add</button>
+
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>

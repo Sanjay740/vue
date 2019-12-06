@@ -1,16 +1,16 @@
 <template>
   <div class="home">
-    <HelloWorld />
+    <ActualComponent />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/Planned/HelloWorld.ts'
+import ActualComponent from '@/components/Actual/actualComponent.ts'
 
 export default {
   components: {
-    HelloWorld
+    ActualComponent
   }
 }
 </script>
